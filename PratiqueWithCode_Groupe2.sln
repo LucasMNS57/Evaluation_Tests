@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluationSampleCode", "EvaluationSampleCode\EvaluationSampleCode.csproj", "{9793C069-7B66-4B3F-9245-6BEC120DB968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PratiqueWithCode_Groupe2.UnitTest", "PratiqueWithCode_Groupe2.UnitTest\PratiqueWithCode_Groupe2.UnitTest.csproj", "{D109B0D6-C6A2-44D7-B1D6-3BA17D651671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationSampleCode.UnitTest", "PratiqueWithCode_Groupe2.UnitTest\EvaluationSampleCode.UnitTest.csproj", "{D109B0D6-C6A2-44D7-B1D6-3BA17D651671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

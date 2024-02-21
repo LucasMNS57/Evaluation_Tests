@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kaS6FndD8ESDMmgy/jl3rOBGpjCbD8TT+qOoQJvKsedbb9+7CLjKcvMB6isVNx07lLjUoRksLEF3lYtTh76mkw==",
+  "dgSpecHash": "hax5tw/x9eAnZXJMcWMNDZwhyo0B3HYuok913PDCpKdfshaPeq6jmyCVIyTUcUrDiMeHdsU1JBBjB1qvAKswnw==",
   "success": true,
-  "projectFilePath": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/PratiqueWithCode_Groupe2.UnitTest.csproj",
+  "projectFilePath": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/EvaluationSampleCode.UnitTest.csproj",
   "expectedPackageFiles": [
     "/Users/lucasgremese/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/lucasgremese/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",

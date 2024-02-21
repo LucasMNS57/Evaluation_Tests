@@ -1018,9 +1018,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/PratiqueWithCode_Groupe2.UnitTest.csproj",
-      "projectName": "PratiqueWithCode_Groupe2.UnitTest",
-      "projectPath": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/PratiqueWithCode_Groupe2.UnitTest.csproj",
+      "projectUniqueName": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/EvaluationSampleCode.UnitTest.csproj",
+      "projectName": "EvaluationSampleCode.UnitTest",
+      "projectPath": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/EvaluationSampleCode.UnitTest.csproj",
       "packagesPath": "/Users/lucasgremese/.nuget/packages/",
       "outputPath": "/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/obj/",
       "projectStyle": "PackageReference",
