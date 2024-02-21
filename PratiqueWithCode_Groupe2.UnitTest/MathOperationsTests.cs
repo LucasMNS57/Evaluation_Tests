@@ -8,12 +8,14 @@ namespace PratiqueWithCode_Groupe2.UnitTest
     {
         private MathOperations mathOperations;
 
+        /// Initialise les opérations mathématiques avant chaque test.
         [TestInitialize]
         public void Setup()
         {
             mathOperations = new MathOperations();
         }
 
+        /// Vérifie si la méthode Subtract retourne le résultat correct pour des nombres valides.
         [TestMethod]
         [DataRow(5, 2, 3)]
         [DataRow(10, 5, 5)]
@@ -27,6 +29,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.AreEqual(expectedResult, result);
         }
 
+        /// Vérifie si la méthode Subtract lève une exception pour des nombres invalides.
         [TestMethod]
         [DataRow(10, 15)]
         [DataRow(1200, 0)]
@@ -38,6 +41,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.ThrowsException<ArgumentException>(() => mathOperations.Subtract(numberOne, numberTwo));
         }
 
+        /// Vérifie si la méthode GetColorFromOddsNumber retourne la couleur correcte pour un nombre impair valide.
         [TestMethod]
         [DataRow(0, "Red")]
         [DataRow(1, "Blue")]
@@ -51,6 +55,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.AreEqual(expectedColor, result);
         }
 
+        /// Vérifie si la méthode GetColorFromOddsNumber lève une exception pour un nombre négatif.
         [TestMethod]
         [DataRow(-1)]
         [DataRow(-5)]
@@ -61,4 +66,3 @@ namespace PratiqueWithCode_Groupe2.UnitTest
         }
     }
 }
-

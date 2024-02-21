@@ -6,6 +6,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
     [TestClass]
     public class HtmlFormatHelperTests
     {
+        /// Vérifie si la méthode GetStrongFormat retourne le format correct.
         [TestMethod]
         public void GetStrongFormat_ReturnsCorrectFormat()
         {
@@ -20,6 +21,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.AreEqual("<strong>Hello World</strong>", result);
         }
 
+        /// Vérifie si la méthode GetItalicFormat retourne le format correct.
         [TestMethod]
         public void GetItalicFormat_ReturnsCorrectFormat()
         {
@@ -34,6 +36,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.AreEqual("<i>Hello World</i>", result);
         }
 
+        /// Vérifie si la méthode GetFormattedListElements retourne le format correct.
         [TestMethod]
         public void GetFormattedListElements_ReturnsCorrectFormat()
         {
@@ -49,4 +52,3 @@ namespace PratiqueWithCode_Groupe2.UnitTest
         }
     }
 }
-

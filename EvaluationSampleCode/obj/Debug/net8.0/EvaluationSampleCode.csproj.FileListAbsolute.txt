@@ -27,3 +27,4 @@ C:/Users/cdric/OneDrive/Bureau/Formations/FormationTestsRecettes/git/Evaluations
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/EvaluationSampleCode/obj/Debug/net8.0/EvaluationSampleCode.pdb
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/EvaluationSampleCode/obj/Debug/net8.0/EvaluationSampleCode.genruntimeconfig.cache
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/EvaluationSampleCode/obj/Debug/net8.0/ref/EvaluationSampleCode.dll
+/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/EvaluationSampleCode/obj/Debug/net8.0/EvaluationSampleCode.sourcelink.json

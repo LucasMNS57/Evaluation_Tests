@@ -6,6 +6,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest;
 [TestClass]
 public class BaptizmTests
 {
+    /// Vérifie si tout membre du clergé qui est prêtre peut baptiser.
     [TestMethod]
     public void CanBeBaptizedBy_AnyPriest_ReturnsTrue()
     {
@@ -20,6 +21,7 @@ public class BaptizmTests
         Assert.IsTrue(result);
     }
 
+    /// Vérifie si tout membre du clergé qui est pape peut baptiser.
     [TestMethod]
     public void CanBeBaptizedBy_AnyPope_ReturnsTrue()
     {
@@ -34,6 +36,7 @@ public class BaptizmTests
         Assert.IsTrue(result);
     }
 
+    /// Vérifie si un membre du clergé qui n'est ni prêtre ni pape ne peut pas baptiser.
     [TestMethod]
     public void CanBeBaptizedBy_NonPriestNonPope_ReturnsFalse()
     {
@@ -48,6 +51,7 @@ public class BaptizmTests
         Assert.IsFalse(result);
     }
 
+    /// Vérifie si un membre du clergé peut enseigner s'il s'agit du même membre du clergé.
     [TestMethod]
     public void CanBeTeachedBy_SameClergyMember_ReturnsTrue()
     {
@@ -62,6 +66,7 @@ public class BaptizmTests
         Assert.IsTrue(result);
     }
 
+    /// Vérifie si un membre du clergé ne peut pas enseigner s'il s'agit d'un membre du clergé différent.
     [TestMethod]
     public void CanBeTeachedBy_DifferentClergyMember_ReturnsFalse()
     {
@@ -77,4 +82,3 @@ public class BaptizmTests
         Assert.IsFalse(result);
     }
 }
-

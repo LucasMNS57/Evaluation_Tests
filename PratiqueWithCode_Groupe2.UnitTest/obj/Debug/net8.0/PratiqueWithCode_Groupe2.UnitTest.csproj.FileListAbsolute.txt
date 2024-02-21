@@ -114,3 +114,4 @@
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/obj/Debug/net8.0/PratiqueWithCode_Groupe2.UnitTest.pdb
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/obj/Debug/net8.0/PratiqueWithCode_Groupe2.UnitTest.genruntimeconfig.cache
 /Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/obj/Debug/net8.0/ref/PratiqueWithCode_Groupe2.UnitTest.dll
+/Users/lucasgremese/Downloads/PratiqueWithCode_Groupe2_Subject/PratiqueWithCode_Groupe2.UnitTest/obj/Debug/net8.0/PratiqueWithCode_Groupe2.UnitTest.sourcelink.json

@@ -6,6 +6,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
     [TestClass]
     public class PhoneNumberTests
     {
+        /// Vérifie si la méthode Parse retourne un numéro de téléphone valide pour un numéro valide.
         [TestMethod]
         public void Parse_ValidNumber_ReturnsPhoneNumber()
         {
@@ -22,6 +23,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.AreEqual("6789", phoneNumber.Minor);
         }
 
+        /// Vérifie si la méthode Parse lève une exception pour un numéro vide.
         [TestMethod]
         public void Parse_EmptyNumber_ThrowsArgumentException()
         {
@@ -32,6 +34,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.ThrowsException<ArgumentException>(() => PhoneNumber.Parse(phoneNumberString));
         }
 
+        /// Vérifie si la méthode Parse lève une exception pour un numéro trop court.
         [TestMethod]
         public void Parse_NumberTooShort_ThrowsArgumentException()
         {
@@ -42,6 +45,7 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             Assert.ThrowsException<ArgumentException>(() => PhoneNumber.Parse(phoneNumberString));
         }
 
+        /// Vérifie si la méthode Parse lève une exception pour un numéro trop long.
         [TestMethod]
         public void Parse_NumberTooLong_ThrowsArgumentException()
         {
@@ -51,7 +55,5 @@ namespace PratiqueWithCode_Groupe2.UnitTest
             // Act & Assert
             Assert.ThrowsException<ArgumentException>(() => PhoneNumber.Parse(phoneNumberString));
         }
-
     }
 }
-
